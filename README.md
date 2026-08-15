@@ -1,4 +1,4 @@
-# 💧 Hydroficient IoT Water Defense System
+# 💧 Hydroficient IoT Water Defense System (Extern IoT defense system projects)
 ### An 8-Week IoT Security Externship — Securing The Grand Marina Hotel's Water Infrastructure
 
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
