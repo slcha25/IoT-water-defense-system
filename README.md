@@ -53,11 +53,21 @@ Each device continuously streams **upstream/downstream pressure, gate position, 
 
 Every reading has to prove its **identity, integrity, freshness, and order** before it's allowed to change what an operator sees on the dashboard. No single control is asked to catch every attack — each stage below closes a gap the previous stage doesn't cover.
 
-```
- [1] COLLECT              [2] PROTECT               [3] IDENTITY              [4] VALIDATE              [5] ASSESS                [6] RESPOND
- Hotel Sensors     ──▶    Signed MQTT Payload  ──▶   MQTT Broker         ──▶   Subscriber Verifies  ──▶   AI Anomaly Review   ──▶   Live Dashboard
- (S)                      (P)                        (B)                      (V)                        (AI)                     (D)
-```
+<p align="center">
+  <img
+    src="./week%208/IoT_Water_Security_Sensor_Pipeline.png"
+    alt="Grand Marina IoT Water Security Sensor Pipeline"
+    width="100%"
+  >
+</p>
+
+<p align="center">
+  <em>
+    Sensor readings pass through mTLS authentication, HMAC validation,
+    timestamp and sequence checks, and AI anomaly detection before reaching
+    the live dashboard.
+  </em>
+</p>
 
 | #     | Stage        | Component                                                      | What Happens                                                                                                                                                                                           |     |
 | ----- | ------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
