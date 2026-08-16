@@ -85,29 +85,80 @@ Every reading has to prove its **identity, integrity, freshness, and order** bef
 **Production mapping**: publisher → real sensor/gateway device · broker → AWS IoT Core / Azure IoT Hub · subscriber → backend validation service · AI layer → scikit-learn model served alongside the backend · dashboard → Grafana/Kibana/custom web app. The pattern built here is the same pattern used in real IoT deployments — just at the scale of 3 devices instead of 300.
 
 ---
-
 ## 🎥 Video Demos
 
-### 1. The Simulator Reproduced Each Attack on Demand
-Separate terminals reproduced eavesdropping, false-data injection, and replay attempts. Each run verified terminal rejection and dashboard logging.
-🔗 [Watch the demo](https://drive.google.com/file/d/1M_1ju2n27jXrr6frrMz9XPyOaMPnGyvE/view?usp=sharing)
+### 1. The Attack Simulation and Live Security Dashboard
 
-### 2. AI and Rules Operate Together in Real Time
-Four coordinated services reproduce trusted traffic, known attacks, and unusual sensor patterns against the same secured pipeline.
-🔗 [Watch the demo](https://drive.google.com/file/d/1M_1ju2n27jXrr6frrMz9XPyOaMPnGyvE/view?usp=sharing)
+This demonstration shows the attack simulator sending tampered and replayed
+MQTT messages to the secured water-monitoring pipeline. Valid readings update
+the dashboard, while messages that fail HMAC, timestamp, or sequence validation
+are rejected and recorded in the security event log.
 
-### 3. AI Live Dashboard Demo
-Green confirms trusted telemetry, orange marks an unusual pattern for review, and red records a blocked security failure.
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9rHYY_FY50E">
+    <img
+      src="https://img.youtube.com/vi/9rHYY_FY50E/maxresdefault.jpg"
+      alt="Attack simulation and live water security dashboard demonstration"
+      width="85%"
+    >
+  </a>
+</p>
 
-The video demonstrates a cybersecurity dashboard designed to monitor water pressure and message integrity, including:
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=9rHYY_FY50E">
+    <strong>▶ Watch the Attack Simulation and Live Dashboard Demo</strong>
+  </a>
+</p>
 
-- **Security and Integrity Monitoring** — each reading is verified by an HMAC signature; the system also scans for old timestamps and replay attacks
-- **AI Anomaly Detection** — the system uses AI to detect abnormal patterns, such as water pressure or flow rates that fall outside average ranges; when an anomaly is detected, the system issues an alert and requires an operator to review or certify the situation
-- **Device Tracking** — the dashboard monitors devices across the main building, the pool and spa, and the kitchen and laundry
-- **Data Visualization and Reporting** — the bottom of the screen displays alerts (nature of the abnormal pattern, reason for the alert, and source); the right side shows a live data feed of timestamps, pressure readings, and messages; metrics include total messages received, messages certified, messages blocked, and AI-detected threats
-- **Attack Simulation** — during a simulation, the dashboard displays alerts in red when an attack occurs, and messages identified as attacks are blocked immediately, so operators can see an attempted attack taking place in real time
+---
 
-🔗 [Watch the demo](https://drive.google.com/file/d/1YPtEs0quIAvScCp-mDrwSoJT4F693M23/view?usp=sharing)
+### 2. AI Detection and Replay-Attack Dashboard
+
+This demonstration shows the rule-based security controls and AI anomaly
+detection working together. Orange alerts identify unusual but authenticated
+water-pressure or flow patterns, while red alerts show replayed or invalid
+messages that were blocked before reaching the dashboard.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=AS6N1ot4YMk">
+    <img
+      src="https://img.youtube.com/vi/AS6N1ot4YMk/maxresdefault.jpg"
+      alt="AI anomaly detection and replay-attack dashboard demonstration"
+      width="85%"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=AS6N1ot4YMk">
+    <strong>▶ Watch the AI Detection and Replay-Attack Demo</strong>
+  </a>
+</p>
+
+---
+
+### 3. Live Water Security Dashboard
+
+This dashboard walkthrough demonstrates real-time monitoring across the Main
+Building, Pool & Spa, and Kitchen & Laundry. It displays pressure, flow rate,
+gate position, device status, AI anomaly warnings, blocked attacks, and live
+security events from all three hotel zones.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=yIVkgfhZtQI">
+    <img
+      src="https://img.youtube.com/vi/yIVkgfhZtQI/maxresdefault.jpg"
+      alt="Grand Marina live IoT water security dashboard demonstration"
+      width="85%"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=yIVkgfhZtQI">
+    <strong>▶ Watch the Live Water Security Dashboard Demo</strong>
+  </a>
+</p>
 
 ---
 
