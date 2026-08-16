@@ -162,9 +162,33 @@ security events from all three hotel zones.
 
 ---
 
-## 📑 Presentation
+## 📑 Capstone Presentation
 
 🔗 [View the full capstone presentation](https://docs.google.com/presentation/d/1nYzl8mj8IIMGNrrNK9pNOZ5Fp8c1tRFyOircYHCg2HA/edit?usp=sharing)
+
+### Grand Marina IoT Water Security Capstone
+
+This presentation explains how layered security controls—including mTLS,
+HMAC-SHA256, timestamps, sequence counters, and AI anomaly detection—protect
+the hotel's IoT water-monitoring pipeline from unauthorized devices, message
+tampering, replay attacks, and unusual operational patterns.
+
+<p align="center">
+  <a href="https://docs.google.com/presentation/d/1nYzl8mj8IIMGNrrNK9pNOZ5Fp8c1tRFyOircYHCg2HA/present?slide=id.p1">
+    <img
+      src="https://docs.google.com/presentation/d/1nYzl8mj8IIMGNrrNK9pNOZ5Fp8c1tRFyOircYHCg2HA/export/png?pageid=p1"
+      alt="Grand Marina IoT Water Security Capstone Presentation"
+      width="85%"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://docs.google.com/presentation/d/1nYzl8mj8IIMGNrrNK9pNOZ5Fp8c1tRFyOircYHCg2HA/present?slide=id.p1">
+    <strong>▶ View the Full Capstone Presentation</strong>
+  </a>
+</p>
+
 
 ---
 
