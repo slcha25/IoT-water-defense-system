@@ -7,10 +7,26 @@
 ![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20MQTT%20%7C%20TLS%2FmTLS%20%7C%20AI-informational?style=flat-square)
 ![Outcome](https://img.shields.io/badge/Outcome-Passed%20Insurance%20Audit-success?style=flat-square)
 
+## 👋 Welcome
+
+This is my IoT Cyber Defense Project at Extern. Every week I push the work I build in class — scripts, lab outputs, notes, and documentation — so there is a living record of how far I have come.
+
+I came into this program as a former Math, Economics, and Accounting teacher with a full-stack development and data analysis background. Cybersecurity and data analysis are my current career path. This repository is proof of my learning. It is possible to start from zero and build something real, week by week.
+
+|             |                                                                             |
+| ----------- | --------------------------------------------------------------------------- |
+| **Name**    | Sok Leng Chan                                                               |
+| **Program** | E-commerce-Data-Analysis-Strategy · Extern                                  |
+| **Phase**   | April - June 2026                                                           |
+| **GitHub**  | [slcha25/IoT-water-defense-system](https://github.com/slcha25/IoT-water-defense-system) |
+
+## 💭 Learning Reflection
+
 > *In this project, I built a secure IoT water-monitoring system for a hotel that tracks water pressure, flow rate, and gate position across multiple areas. I used mTLS to authenticate devices and encrypt MQTT connections, while HMAC-SHA256, timestamps, and sequence counters protected sensor messages from tampering, stale data, and replay attacks. I also integrated AI anomaly detection to identify unusual pressure and flow patterns, then developed a live dashboard that displays trusted data, flags anomalies, and logs blocked attacks. Finally, I tested the system under normal, high-traffic, and emergency scenarios and translated the results into a security assessment report for a non-technical audience.*
 >
 
 *"A sensor glitches. A valve shuts off. 2,000 hotel guests wake up with no water."*
+
 That's the scenario this project exists to prevent.
 
 ---
