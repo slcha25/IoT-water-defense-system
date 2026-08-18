@@ -9,9 +9,10 @@
 
 ## 👋 Welcome
 
-This is my IoT Cyber Defense Project at Extern. Every week I push the work I build in class — scripts, lab outputs, notes, and documentation — so there is a living record of how far I have come.
+This is my IoT Cyber Defense Project at Extern. 
+Every week I push the work I build in class — scripts, lab outputs, notes, and documentation — so there is a living record of how far I have come.
 
-I came into this program as a former Math, Economics, and Accounting teacher with a full-stack development and data analysis background. Cybersecurity and data analysis are my current career path. This repository is proof of my learning. It is possible to start from zero and build something real, week by week.
+I came into this program as a former Math, Economics, and Accounting teacher with a full-stack development and data analysis background. Cybersecurity and data analysis are my current career path. This repository is proof of my learning.
 
 |             |                                                                             |
 | ----------- | --------------------------------------------------------------------------- |
