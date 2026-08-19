@@ -17,7 +17,7 @@ I came into this program as a former Math, Economics, and Accounting teacher wit
 |             |                                                                             |
 | ----------- | --------------------------------------------------------------------------- |
 | **Name**    | Sok Leng Chan                                                               |
-| **Program** | E-commerce-Data-Analysis-Strategy · Extern                                  |
+| **Program** | Hydroficient IoT Water Defense System · Extern                              |
 | **Phase**   | April - June 2026                                                           |
 | **GitHub**  | [slcha25/IoT-water-defense-system](https://github.com/slcha25/IoT-water-defense-system) |
 
