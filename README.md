@@ -162,7 +162,7 @@ gate position, device status, AI anomaly warnings, blocked attacks, and live
 security events from all three hotel zones.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=yIVkgfhZtQI">
+  <a href="https://www.youtube.com/watch?v=UbmtKnXpnDE">
     <img
       src="https://img.youtube.com/vi/yIVkgfhZtQI/maxresdefault.jpg"
       alt="Grand Marina live IoT water security dashboard demonstration"
@@ -172,7 +172,7 @@ security events from all three hotel zones.
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=yIVkgfhZtQI">
+  <a href="https://www.youtube.com/watch?v=UbmtKnXpnDE">
     <strong>▶ Watch the Live Water Security Dashboard Demo</strong>
   </a>
 </p>
